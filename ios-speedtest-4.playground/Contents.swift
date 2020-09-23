@@ -5,7 +5,7 @@ import UIKit
 //: # 1️⃣ for-in loop
 
 //MARK: for- in loop خمس مرات باستخدام ال "iOS" قم بطباعه
-for A in 0...5  {
+for A in 0..<5  {
       print("ios")
 }
 
@@ -15,14 +15,14 @@ for A in 0...5  {
 
 // MARK: هذي الداله تقوم بضرب رقمين و ترجع الناتج
 
-func multiplication(  number1 : Int ,  number2 : Int) -> Int
+func multiplication(_ number1 : Int , _ number2 : Int) -> Int
 {
     
     return number1 * number2
 }
 // MARK:   بما يناسب صيغه هذا الاستدعاء multiplication قم بتعديل  الداله
 
-multiplication(number1: 5,number2: 7)
+multiplication(5,7)
 
 
 
